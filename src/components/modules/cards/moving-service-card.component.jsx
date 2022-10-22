@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function ApartmentCard() {
+export default function MovingServiceCard() {
     return (
         <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -17,10 +17,10 @@ export default function ApartmentCard() {
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                    Tên nhà
+                    Tên dịch vụ vận chuyển
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    Thông tin nhà:
+                    Thông tin:
                 </Typography>
             </CardContent>
             <CardActions>

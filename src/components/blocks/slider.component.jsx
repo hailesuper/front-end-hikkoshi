@@ -18,7 +18,6 @@ export default function SliderSection() {
                             <Grid container spacing={4}>
                                 <Grid item xs={12} lg={7}>
                                     <div className="d-flex align-items-center">
-                                        <span className="px-4 h-auto py-1 badge badge-second badge-pill">New release</span>
                                         <Tooltip arrow placement="right" title="More info placeholder!">
                                                 <span className="text-white-50 pl-3">
                                                     <FontAwesomeIcon icon={['far', 'question-circle']} />
@@ -27,16 +26,16 @@ export default function SliderSection() {
                                     </div>
                                     <div className="text-white mt-3">
                                         <h1 className="display-3 mb-3 font-weight-bold">
-                                            Pleasure rationally encounter consequences
+                                            Bạn có nhu cầu chuyển nhà tại Nhật?
                                         </h1>
                                         <p className="font-size-lg text-white-50">
-                                            On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized.
+                                            Hãy để chúng tôi giúp bạn!
                                         </p>
                                         <div className="divider border-2 my-5 border-light opacity-2 rounded-circle w-25" />
                                         <div>
                                             <Button size="large" color="primary" variant="contained">
                                                         <span className="btn-wrapper--label">
-                                                            Browse gallery
+                                                            Tôi chưa thue được nhà
                                     </span>
                                                 <span className="btn-wrapper--icon">
                                                             <FontAwesomeIcon icon={['fas', 'arrow-right']} />
@@ -44,7 +43,7 @@ export default function SliderSection() {
                                             </Button>
                                             <Button color="inherit" variant="outlined" className="text-light ml-3">
                                                         <span>
-                                                            Documentation
+                                                            Tôi đã thuê được nhà mới
                                     </span>
                                             </Button>
                                         </div>
