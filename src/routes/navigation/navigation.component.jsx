@@ -8,18 +8,26 @@ const Navigation = () => {
     return (
         <Fragment>
             <ButtonGroup variant="contained" aria-label="outlined primary button group">
-                <Button>
-                    <NavLink to={""}>Home</NavLink>
-                </Button>
-                <Button>
-                    <NavLink to={"/register"}>Book service</NavLink>
-                </Button>
-                <Button>
-                    <NavLink to={"/sign-in"}>Sign in</NavLink>
-                </Button>
-                <Button>
-                    <NavLink to={"/service"}>Service</NavLink>
-                </Button>
+                <NavLink to={""}>
+                    <Button>
+                        Home
+                    </Button>
+                </NavLink>
+                <NavLink to={"/register"}>
+                    <Button>
+                        Book service
+                    </Button>
+                </NavLink>
+                <NavLink to={"/sign-in"}>
+                    <Button>
+                        Sign in
+                    </Button>
+                </NavLink>
+                <NavLink to={"/service"}>
+                    <Button>
+                        Service
+                    </Button>
+                </NavLink>
             </ButtonGroup>
             <Outlet/>
         </Fragment>
